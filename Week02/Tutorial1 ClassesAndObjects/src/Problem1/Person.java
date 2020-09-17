@@ -7,11 +7,25 @@ package Problem1;
 
 public class Person {
 
-    public static String foreName;
-    public static String surName;
-    public static String email;
-    public static int age;
-    public static String mobileNumber;
+    public String foreName;
+    public String surName;
+    public String email;
+    public int age;
+    public String mobileNumber;
+
+    public Person() {
+        /*
+        forename = "Gill";
+        surname = "Blue";
+        email = "g.b@gmial.com";
+        mobile = "0798783022";
+        age = 22;           */
+        this.getForename();
+        this.getSurname();
+        this.getEmail();
+        this.getMobile();
+        this.getAge();
+    }
 
 }
 
