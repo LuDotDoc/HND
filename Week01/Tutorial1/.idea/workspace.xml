@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e5495d0-6923-4cd2-973a-3f021e7684f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessingGame/GuessGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessingGame/GuessGame.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hBxFtWiPu9IHnH2RixncYuB80y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PrinterCalculator" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GameLauncher">
+    <configuration name="GameLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessingGame.GameLauncher" />
+      <module name="Tutorial1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GuessingGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrinterCalculator.PrinterCalc" />
+      <module name="Tutorial1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrinterCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrinterCalcVersion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrinterCalculator.PrinterCalcVersion2" />
+      <module name="Tutorial1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrinterCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tutorial1b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial1b" />
+      <module name="Tutorial1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tutorial1c" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tutorial1c" />
+      <module name="Tutorial1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameLauncher" />
+        <item itemvalue="Application.PrinterCalcVersion2" />
+        <item itemvalue="Application.PrinterCalc" />
+        <item itemvalue="Application.Tutorial1c" />
+        <item itemvalue="Application.Tutorial1b" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e5495d0-6923-4cd2-973a-3f021e7684f6" name="Default Changelist" comment="" />
+      <created>1599498185684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599498185684</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Tutorial 1a complete">
+      <created>1599510290453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599510290453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tutorial 1b complete">
+      <created>1599514808264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599514808264</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Tutorial 1c complete">
+      <created>1599585589552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599585589553</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Guessing Game. Chapter 2 Book - Done">
+      <created>1599859349541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599859349541</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Simple program. Estimating time remaining of 3D prints.">
+      <created>1600182116411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600182116411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Print Calculator Version 2">
+      <created>1600188666512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600188666512</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tutorial 1a complete" />
+    <MESSAGE value="Tutorial 1b complete" />
+    <MESSAGE value="Tutorial 1c complete" />
+    <MESSAGE value="Guessing Game. Chapter 2 Book - Done" />
+    <MESSAGE value="Simple program. Estimating time remaining of 3D prints." />
+    <MESSAGE value="Print Calculator Version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print Calculator Version 2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2273" y="483" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599645184761">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="2273" y="483" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599645184761" />
+    <state x="2234" y="274" key="CommitChangelistDialog2" timestamp="1600188665351">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="2234" y="274" key="CommitChangelistDialog2/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600188665351" />
+    <state width="1674" height="383" key="GridCell.Tab.0.bottom" timestamp="1600256131130">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="383" key="GridCell.Tab.0.bottom/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600256131130" />
+    <state width="1674" height="383" key="GridCell.Tab.0.center" timestamp="1600256131130">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="383" key="GridCell.Tab.0.center/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600256131130" />
+    <state width="1674" height="383" key="GridCell.Tab.0.left" timestamp="1600256131130">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="383" key="GridCell.Tab.0.left/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600256131130" />
+    <state width="1674" height="383" key="GridCell.Tab.0.right" timestamp="1600256131130">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="383" key="GridCell.Tab.0.right/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600256131130" />
+    <state width="1674" height="474" key="GridCell.Tab.1.bottom" timestamp="1599514649911">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="474" key="GridCell.Tab.1.bottom/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599514649911" />
+    <state width="1674" height="474" key="GridCell.Tab.1.center" timestamp="1599514649911">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="474" key="GridCell.Tab.1.center/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599514649911" />
+    <state width="1674" height="474" key="GridCell.Tab.1.left" timestamp="1599514649911">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="474" key="GridCell.Tab.1.left/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599514649911" />
+    <state width="1674" height="474" key="GridCell.Tab.1.right" timestamp="1599514649911">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state width="1674" height="474" key="GridCell.Tab.1.right/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599514649911" />
+    <state x="2398" y="391" key="RollbackChangesDialog" timestamp="1600188351128">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="2398" y="391" key="RollbackChangesDialog/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600188351128" />
+    <state x="2172" y="413" key="Vcs.Push.Dialog.v2" timestamp="1600188689062">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="2172" y="413" key="Vcs.Push.Dialog.v2/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600188689062" />
+    <state x="1602" y="605" key="com.intellij.ide.util.TipDialog" timestamp="1600340103048">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="1602" y="605" key="com.intellij.ide.util.TipDialog/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1600340103048" />
+    <state x="2243" y="310" width="672" height="678" key="search.everywhere.popup" timestamp="1599509545433">
+      <screen x="0" y="0" width="3440" height="1359" />
+    </state>
+    <state x="2243" y="310" width="672" height="678" key="search.everywhere.popup/0.0.3440.1359/3440.0.2560.1359@0.0.3440.1359" timestamp="1599509545433" />
+  </component>
+</project>
