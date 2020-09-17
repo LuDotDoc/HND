@@ -14,8 +14,9 @@ public class MainDriver {
 
         System.out.println("Please enter 1 - Rectangle Class, 2 - For Circle Class or 3 - To Exit");
         int choice = scanner.nextInt();
+        boolean exit = false;
 
-        while(choice != 3) {
+        do{
             switch (choice) {
                 case 1:
                     Rectangle r = new Rectangle();
@@ -32,14 +33,12 @@ public class MainDriver {
 
                 case 3:
                     System.out.println("Exiting now");
-
+                    exit = true;
                     break;
                 default:
                     System.out.println("Please enter 1,2 or 3");
-                    choice = scanner.nextInt();
-                    break;
             }
-        }
+        }while(exit = false);
     }
 }
 
