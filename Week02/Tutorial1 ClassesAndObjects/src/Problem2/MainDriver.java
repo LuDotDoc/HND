@@ -9,37 +9,60 @@ import java.util.Scanner;
  *************************************************************************/
 
 public class MainDriver {
+
+    static  Scanner kboard = new Scanner(System.in);
+
+    public static boolean getContinuePromptAnswer() {                                                        //prompts the user if they wish to do a command again
+        boolean userAnswer;
+        System.out.print("\nDo you want to do another? (Y)es (N)o : ");
+        userAnswer = kboard.next().equalsIgnoreCase("y");
+        return userAnswer;
+    }
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter 1 - Rectangle Class, 2 - For Circle Class or 3 - To Exit");
-        int choice = scanner.nextInt();
-        boolean exit = false;
 
-        do{
-            switch (choice) {
+
+        int menuLoop = 0;
+        int answer;
+        boolean doFunctionAgain;
+
+        while(menuLoop != 3) {
+
+            System.out.println("Shapes Problem");
+            System.out.print("Press [1] For Rectangle, [2] For Circle Or [3] To Exit: ");
+            answer = kboard.nextInt();
+            switch (answer) {
+
                 case 1:
+                    System.out.println("You chose option 1 - Rectangle");
                     Rectangle r = new Rectangle();
                     r.displayInformation();
-                    System.out.println("Please enter 1 - Rectangle Class, 2 - For Circle Class or 3 - To Exit");
-                    choice = scanner.nextInt();
+                    doFunctionAgain = getContinuePromptAnswer();
                     break;
+
                 case 2:
+                    System.out.println("You chose option 2 - Circle");
                     Circle c = new Circle();
                     c.displayInformation();
-                    System.out.println("Please enter 1 - Rectangle Class, 2 - For Circle Class or 3 - To Exit");
-                    choice = scanner.nextInt();
                     break;
 
                 case 3:
-                    System.out.println("Exiting now");
-                    exit = true;
+                    System.out.println("You chose option 3 - Quit");
+                    System.out.println("Goodbye!");
+                    menuLoop = 3;
                     break;
+
                 default:
-                    System.out.println("Please enter 1,2 or 3");
+                    System.out.println("Please enter an input of 1, 2 or 3");
             }
-        }while(exit = false);
+        }       kboard.close();
+
+
     }
 }
+
+
+
 
 
