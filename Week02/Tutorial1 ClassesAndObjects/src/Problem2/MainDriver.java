@@ -45,6 +45,7 @@ public class MainDriver {
                     System.out.println("You chose option 2 - Circle");
                     Circle c = new Circle();
                     c.displayInformation();
+                    doFunctionAgain = getContinuePromptAnswer();
                     break;
 
                 case 3:
