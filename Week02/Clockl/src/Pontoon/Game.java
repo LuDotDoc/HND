@@ -25,7 +25,8 @@ public class Game {
      * @return
      */
     public boolean askNewCard() {
-        System.out.println(this.deck);
+        System.out.println("\n" + this.deck);
+        System.out.println("Card total is " + this.deck.getTotal());
 
         System.out.print("Do you want another card? (Y)es (N)o : ");
         String input = this.player.getInput();
@@ -42,9 +43,10 @@ public class Game {
         // Add two new cards
         this.deck.addCard(new Card());
         this.deck.addCard(new Card());
-        System.out.println("Your total is: " + this.deck.getTotal());
 
         boolean choice = this.askNewCard();
+
+        boolean lost = false;
 
         while(choice)
         {
@@ -52,10 +54,10 @@ public class Game {
             deck.addCard(newCard);
 
             System.out.println("You drew " + newCard);
-            System.out.println("Card total is " + this.deck.getTotal());
 
             if (this.deck.getTotal() > 21)
             {
+                lost = true;
                 break; // break the loop if we've lost already
             }
             else if (this.deck.getTotal() == 21)
@@ -63,25 +65,52 @@ public class Game {
                 break; // break the loop if we've lost already
             }
 
-            System.out.print("Do you want another card? (Y)es (N)o : ");
-            String input = this.player.getInput();
-            choice = input.equalsIgnoreCase("y");
+            choice = askNewCard();
         }
 
-        System.out.println("Your hand consists of: " + this.deck);
-        System.out.println("Total is " + this.deck.getTotal());
+        System.out.println("Your hand consists of:");
+        System.out.println(this.deck);
 
-        if (this.deck.getTotal() > 21)
-        {
-            System.out.println("You're bust!");
+        Deck dealerDeck = new Deck();
+        if (lost) {
+            System.out.println("You've lost!");
+            return;
+
+        } else {
+            boolean dealerDunGoofed = false;
+            while (!dealerDunGoofed)
+            {
+                dealerDeck.addCard(new Card());
+
+                if (dealerDeck.getTotal() > 21)
+                {
+                    dealerDunGoofed = true;
+                }
+                else if (dealerDeck.getTotal() > 16)
+                {
+                    break;
+                }
+            }
         }
-        else if (this.deck.getTotal() > 19 && this.deck.getTotal() <= 21)
+
+        System.out.println("\nDealer's hand consists of:");
+        System.out.println(dealerDeck);
+        System.out.println("\nYour total is " + this.deck.getTotal());
+        System.out.println("Dealer total is " + dealerDeck.getTotal());
+
+        System.out.println(""); // New line
+
+        if (this.deck.getTotal() == dealerDeck.getTotal())
         {
-            System.out.println("You have won!");
+            System.out.println("Draw!");
+        }
+        else if (this.deck.getTotal() > dealerDeck.getTotal() && this.deck.getTotal() < 22)
+        {
+            System.out.println("You've won.");
         }
         else
         {
-            System.out.println("You failed!");
+            System.out.println("You've lost.");
         }
     }
 }
