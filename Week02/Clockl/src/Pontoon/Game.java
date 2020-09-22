@@ -42,6 +42,7 @@ public class Game {
         // Add two new cards
         this.deck.addCard(new Card());
         this.deck.addCard(new Card());
+        System.out.println("Your total is: " + this.deck.getTotal());
 
         boolean choice = this.askNewCard();
 
@@ -52,30 +53,35 @@ public class Game {
 
             System.out.println("You drew " + newCard);
             System.out.println("Card total is " + this.deck.getTotal());
-            System.out.print("Do you want another card? (Y)es (N)o : ");
 
             if (this.deck.getTotal() > 21)
             {
                 break; // break the loop if we've lost already
             }
+            else if (this.deck.getTotal() == 21)
+            {
+                break; // break the loop if we've lost already
+            }
 
+            System.out.print("Do you want another card? (Y)es (N)o : ");
             String input = this.player.getInput();
             choice = input.equalsIgnoreCase("y");
         }
 
+        System.out.println("Your hand consists of: " + this.deck);
         System.out.println("Total is " + this.deck.getTotal());
 
         if (this.deck.getTotal() > 21)
         {
-            System.out.println("You're bust");
+            System.out.println("You're bust!");
         }
-        if (this.deck.getTotal() > 19 && this.deck.getTotal() <= 21)
+        else if (this.deck.getTotal() > 19 && this.deck.getTotal() <= 21)
         {
             System.out.println("You have won!");
         }
         else
         {
-            System.out.println("You have lost");
+            System.out.println("You failed!");
         }
     }
 }

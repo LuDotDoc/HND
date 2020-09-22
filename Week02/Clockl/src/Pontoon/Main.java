@@ -10,16 +10,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Game g = new Game();
         g.run();
 
-//        Deck d = new Deck();
-//        d.addCard(new Card());
-//        System.out.println(d.getStore()[0]);
     }
 }
-
-
-
-
-                                                                           

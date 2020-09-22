@@ -59,7 +59,7 @@ public class Deck {
             str += "\nCard: " + (i + 1) + " value: " + this.store.get(i).getValue();
         }
 
-        return str;
+        return str.trim();
     }
 }
 
